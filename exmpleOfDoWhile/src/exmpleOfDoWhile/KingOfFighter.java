@@ -34,5 +34,4 @@ public class KingOfFighter {
 		System.out.println("Devil" + "\t" + hp2);
 		
 	}
-
 }
