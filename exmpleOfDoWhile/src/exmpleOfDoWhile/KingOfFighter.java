@@ -33,5 +33,6 @@ public class KingOfFighter {
 		System.out.println(userName +"\t"+ hp1);
 		System.out.println("Devil" + "\t" + hp2);
 		
+		
 	}
 }
