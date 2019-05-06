@@ -21,6 +21,7 @@ public class Day6_May_WuXia {
 			
 		}while (!"Y".equalsIgnoreCase(answer));
 		
+		System.out.println("The king of the world Mr. Pirate " + name +" is comming.");
 
 	}
 
