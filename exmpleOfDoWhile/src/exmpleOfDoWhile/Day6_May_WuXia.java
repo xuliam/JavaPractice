@@ -8,14 +8,18 @@ public class Day6_May_WuXia {
 		// TODO Auto-generated method stub
 		
 		Scanner input = new Scanner(System.in);
+		String name = null;
 		String answer = "Y";
 		
 		do {
-			
+			System.out.println("Pls write down your Name!");
+			name = input.nextLine();
+			System.out.println("Title:  name");
+			System.out.println("Pirate" +"\t" + name);
 			System.out.println("Do you want go on? (Y/N)");
 			answer = input.nextLine();	
 			
-		}while ("Y".equalsIgnoreCase(answer));
+		}while (!"Y".equalsIgnoreCase(answer));
 		
 
 	}
