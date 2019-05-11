@@ -20,7 +20,6 @@ public class UseBreak {
 				break;
 			}
 			sum += exp;
-			
 		}
 		
 		System.out.println(sum);
