@@ -31,6 +31,7 @@ public class SortSecondDemo {
 			System.out.print(nums[i]+"\t");
 		}
 		
+		}
 	}
 
 }
