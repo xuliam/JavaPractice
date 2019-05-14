@@ -23,14 +23,15 @@ public class BinaryAarry {
 			}
 		}
 		System.out.println();
-		
+		//Int[][] matrix;
 		for (int i = 0; i < ROW; i++) {
 			for (int j = 0; j < COL; j++) {
-				scores[i][j]++;
+				
+				System.out.print(scores[i][j]+"\t");
 			}
 			
 		}
-		System.out.println(scores);
+		System.out.println();
 	}
 
 }
