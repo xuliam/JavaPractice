@@ -15,7 +15,7 @@ public class CircleTest {
 		Scanner input = new Scanner(System.in);
 		System.out.println("radius:");
 		double radius = input.nextDouble();
-		Circle3 yuan = new Circle3(radius);
+		Circle4 yuan = new Circle4(radius);
 		yuan.show();
 		
 		}
