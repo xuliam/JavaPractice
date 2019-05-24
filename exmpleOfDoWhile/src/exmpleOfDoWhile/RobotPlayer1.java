@@ -71,12 +71,10 @@ public class RobotPlayer1 {
 	}
 
 	public int getFist() {
+		fist = ((int )(Math.random()*1000))%3 +1;
 		return fist;
 	}
 
-	public void setFist(int fist) {
-		this.fist = fist;
-	}
-	
+
 	
 }
